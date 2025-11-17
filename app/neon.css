@@ -1,0 +1,14 @@
+.neon-border {
+  box-shadow: 0 0 25px #a100ff, 0 0 45px #ff00ff;
+  border: 3px solid rgba(255, 0, 255, 0.4);
+  animation: neonPulse 2.5s infinite alternate;
+}
+
+@keyframes neonPulse {
+  0% {
+    box-shadow: 0 0 20px #a100ff, 0 0 35px #ff00ff;
+  }
+  100% {
+    box-shadow: 0 0 35px #d200ff, 0 0 60px #ff66ff;
+  }
+}

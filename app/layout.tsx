@@ -10,6 +10,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import "./globals.css"
 import { Poppins } from "next/font/google"
+import "app\neon.css"
 
 
 const fontSans = FontSans({
