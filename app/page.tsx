@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { HeroSection } from "@/components/hero-section"
 import { MachineGrid } from "@/components/machine-grid"
@@ -9,19 +11,15 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center">
 
-      {/* ===================================================== */}
-      {/*     🔴 STREAM AO VIVO COM BORDA NEON ANIMADA          */}
-      {/* ===================================================== */}
+      {/* STREAM AO VIVO COM BORDA NEON */}
       <section className="w-full bg-black py-6 flex justify-center">
         <div className="relative w-full max-w-4xl rounded-2xl overflow-hidden neon-border">
 
-          {/* Badge AO VIVO no canto superior esquerdo */}
           <div className="absolute top-4 left-4 bg-red-600/90 px-3 py-1 rounded-lg text-white text-xs font-bold flex items-center gap-1 animate-pulse z-20 shadow-lg">
             <span className="w-2 h-2 bg-white rounded-full animate-ping"></span>
             AO VIVO
           </div>
 
-          {/* STREAM DA GRUA */}
           <img
             src="https://eleni-interventricular-chere.ngrok-free.dev/stream.mjpg"
             alt="Live Grua"
@@ -30,7 +28,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Seções existentes */}
       <HeroSection />
       <FeaturedMachines />
       <MachineGrid />
@@ -63,7 +60,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ESTILO NEON ADICIONAL */}
       <style jsx global>{`
         .neon-border {
           box-shadow: 0 0 25px #a100ff, 0 0 45px #ff00ff;
