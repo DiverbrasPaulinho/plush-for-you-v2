@@ -8,7 +8,8 @@ import { Toaster } from "@/components/ui/toaster"
 import { AuthProvider } from "@/components/auth-provider"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import "./globals.css"
+import "./globals.css";
+import "./neon.css";
 
 const fontSans = FontSans({
   subsets: ["latin"],
