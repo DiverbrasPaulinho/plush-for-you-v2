@@ -15,11 +15,13 @@ export default function Home() {
       <section className="w-full bg-black py-6 flex justify-center">
         <div className="relative w-full max-w-4xl rounded-2xl overflow-hidden neon-border">
 
+          {/* AO VIVO */}
           <div className="absolute top-4 left-4 bg-red-600/90 px-3 py-1 rounded-lg text-white text-xs font-bold flex items-center gap-1 animate-pulse z-20 shadow-lg">
             <span className="w-2 h-2 bg-white rounded-full animate-ping"></span>
             AO VIVO
           </div>
 
+          {/* STREAM */}
           <img
             src="https://eleni-interventricular-chere.ngrok-free.dev/stream.mjpg"
             alt="Live Grua"
@@ -59,7 +61,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
     </main>
   )
 }
