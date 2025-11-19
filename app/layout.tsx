@@ -11,7 +11,6 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 import "./globals.css"
-import "./neon.css" // <-- 100% correto
 
 const fontSans = FontSans({
   subsets: ["latin"],
